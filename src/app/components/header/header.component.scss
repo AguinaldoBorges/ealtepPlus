@@ -1,0 +1,30 @@
+.header{
+  &__top{
+    height: 40px;
+    background-color: #90ff17;
+  }
+  &__menu{
+    background-color: #1a080f;
+    color: #90ff17;
+
+  }
+  &__logo-text{
+    color: #f7f4e8;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+  &__logo-plus{
+    color: #90ff17;
+    font-size: xx-large;
+  }
+  &__btn-search{
+    border: #90ff17 solid 1px;
+    color: #90ff17;
+  }
+}
+.nav-link{
+  >span{
+    color: #f7f4e8;
+  }
+
+}
