@@ -1,7 +1,6 @@
-<app-header></app-header>
+<app-header #header></app-header>
 <app-banner></app-banner>
 <div>
-  <app-card></app-card>
+    <app-card [news]="header.listNews"></app-card>
 </div>
 <app-footer></app-footer>
-
